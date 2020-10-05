@@ -18,6 +18,6 @@
 
 `developed` : <https://github.com/jair-andres>
 
-[linkelind](https://www.linkedin.com/in/jair-barreto-8422b51ab/)
+Perfil de linkelind [linkelind](https://www.linkedin.com/in/jair-barreto-8422b51ab/)
 
 Email jairbarreto23@gmail.com

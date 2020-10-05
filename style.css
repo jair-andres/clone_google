@@ -1,0 +1,140 @@
+/* style standard */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+    
+/* style header/navigation menu */
+header {
+    width: 100vw;
+    height: 10vh;
+    font-size: 1.6rem;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-right: 3rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    text-align: -webkit-match-parent;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+li a i {
+    margin: 0.5rem 0.3rem;
+    padding: 0.5rem;
+}
+li a {
+    color: black;
+}
+
+.buttom_primary {
+    background-color: #4285f4;
+    width: auto;
+    height: 2.4rem;
+    color:white;
+    padding: 0px 1.2rem;
+    border-color: #4285f4;
+}
+
+/* style main/container */
+main{
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    width: 100vw;
+    height: 80vh;
+}
+
+.container {  
+    width: 40%;
+    height: auto;
+}
+
+.content-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 15%;
+}
+
+img{
+    width: 50%;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.5px solid;
+    border-radius: 3rem;
+}
+
+.search .input_search {
+   border: 0;
+   border-color: transparent;
+   width: 95%;
+}
+
+.content-button {
+    display: flex;
+    justify-content: flex-start;
+    width: 50rem;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+}
+
+.content-button button {
+    width: 50%;
+    height: auto;
+    padding: 1.2rem;
+    margin: 2rem;
+    color: #5F6368;
+    background: #f2f2f2;
+    border-style: none;
+    border-color: #f2f2f2;
+    border-radius: 0.3rem;
+}
+
+.content-link {
+    display: flex;
+    justify-content: center;
+}
+
+/* style footer */
+footer{
+    width: 100vw;
+    height: 10vh;
+    font-size: 1.6rem;
+    background: #f2f2f2;
+    color: #5F6368;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid #e4e4e4;
+}
+
+
